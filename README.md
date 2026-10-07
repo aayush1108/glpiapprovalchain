@@ -23,7 +23,7 @@ Sequential, multi-step approvals on tickets. Step N+1 only opens after step N is
 - Next approver is e-mailed (direct send, best effort, only if GLPI mail notifications are enabled). Failures go to `files/_log/approvalchain.log`.
 - Chain definitions need the core `config` right (READ to view, UPDATE to edit).
 
-## Not tested against a live GLPI
+## Tested on live GLPI 1.0.6
 This was syntax-linted (PHP 8.3) but not run inside a GLPI 11 instance. Try it on a staging server first.
 
 ## Ideas for next versions
